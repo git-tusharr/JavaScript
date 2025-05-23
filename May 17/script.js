@@ -93,5 +93,5 @@ let n1 = parseFloat(prompt("enter number 1"));
 let n2 = parseFloat(prompt("enter number 2"));
 console.log(n1+n2);
 console.log(n1-n2);
-console.log(n1*            n2);
+console.log(n1*n2);
 

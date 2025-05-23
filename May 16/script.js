@@ -34,6 +34,6 @@ console.log(output, typeof output);
 
 
 
-// reference-
+// reference-three types of reference datatypes are object literals,functions and arrays
 
 
