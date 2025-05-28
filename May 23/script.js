@@ -75,6 +75,8 @@
 
 // Array
 
+
+// Array using array literal
 const numbers = [1,2,3,4,5,6,7];
 console.log(numbers[0]);
 console.log(numbers[1]);
@@ -107,3 +109,6 @@ console.log(mixed);
 console.log(mixed[5].name);
 console.log(mixed[5].age);
 console.log(mixed[6][1]);
+
+
+
