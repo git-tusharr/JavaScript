@@ -89,7 +89,7 @@ const jasonuser = JSON.stringify(user);
 console.log(user);
 console.log(jasonuser);
 
-// conver json to object
+// convert json to object
 
 const backtoobject = JSON.parse(jasonuser);
 console.log(backtoobject);

@@ -89,9 +89,33 @@ console.log(num1, typeof num1);
 
 // Operations of two numbers
 
-let n1 = parseFloat(prompt("enter number 1"));
-let n2 = parseFloat(prompt("enter number 2"));
-console.log(n1+n2);
-console.log(n1-n2);
-console.log(n1*n2);
+// let n1 = parseFloat(prompt("enter number 1"));
+// let n2 = parseFloat(prompt("enter number 2"));
+// console.log(n1+n2);
+// console.log(n1-n2);
+// console.log(n1*n2);
+
+
+// Practice - 
+
+
+let a = prompt("Enter a number");
+let b = prompt("enter second number");
+
+console.log("sum of"+a+" and "+b+" is "+a+b);
+
+if(a==b)
+{
+    console.log("same");
+}
+else
+{
+console.log("different");
+}
+
+
+
+
+
+
 
