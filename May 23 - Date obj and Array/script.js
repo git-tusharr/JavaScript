@@ -52,23 +52,15 @@
 // x = mydate.getMilliseconds();
 // console.log(x);
 
-// task
+// task - find the age of the user
 
 // let birthYear=prompt("enter your Birth year");
 // console.log(birthYear);
+// let thisYear =new Date;
+// let currentYear=thisYear.getFullYear();
+// let age = currentYear-birthYear;
+// console.log("Your current age is : "+age);
 
-// let myDate;
-// let x;
-// x= myDate.getYear(birthYear);
-
-
-
-// let mydate = new Date();
-// let x;
-// x = mydate.getFullYear();
-// console.log(x);
-// let birthYear = parseFloat(prompt("enter number BirthYear"));
-// console.log(x-birthYear);
 
 
 
@@ -76,23 +68,23 @@
 // Array
 
 
-// Array using array literal
-const numbers = [1,2,3,4,5,6,7];
-console.log(numbers[0]);
-console.log(numbers[1]);
-console.log(numbers[2]);
-console.log(numbers[3]);
-console.log(numbers[4]);
+// // Array using array literal
+// const numbers = [1,2,3,4,5,6,7];
+// console.log(numbers[0]);
+// console.log(numbers[1]);
+// console.log(numbers[2]);
+// console.log(numbers[3]);
+// console.log(numbers[4]);
 
-// update the values in a array
+// // update the values in a array
 
-numbers[0]=100;
-console.log(numbers);
+// numbers[0]=100;
+// console.log(numbers);
 
 
-const names=["Vineet","Arvind","Sarvagya","Gauri"];
-console.log(names);
-console.log(names[0]);
+// const names=["Vineet","Arvind","Sarvagya","Gauri"];
+// console.log(names);
+// console.log(names[0]);
 
 
 const mixed = [
@@ -105,9 +97,11 @@ const mixed = [
     [100,200]
 ];
 
-console.log(mixed);
+console.log(mixed[0]);
+
+// console.log(mixed);
 console.log(mixed[5].name);
-console.log(mixed[5].age);
+// console.log(mixed[5].age);
 console.log(mixed[6][1]);
 
 

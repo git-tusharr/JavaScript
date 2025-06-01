@@ -76,4 +76,4 @@ function name1(x){
     return x;
 }
 let result3 = name1("tushar");
-console.log(result3);
+console.log(result3);A

@@ -14,27 +14,29 @@ const person = {
 // get the value
 
 console.log(person.name);
-console.log(person["age"]);
+console.log(person.age);
 console.log(person.iseligible);
 console.log(person["iseligible"]);
 console.log(person.address.city);
 console.log(person.hobby[1]);
 
 
-// updates values
+// // updates values
 
 person.iseligible=false;
 person.name = "harry potter";
+person.address.city="indore";
+person.hobby[1]="sports"
 console.log(person);
 
 
-//contructor
+// //contructor
 
-const student = new Object();
+// const student = new Object();
 
-student.id = 1;
-student.name = "john";
-console.log(student);
+// student.id = 1;
+// student.name = "john";
+// console.log(student);
 
 
 // Array of objects
@@ -56,24 +58,24 @@ const obj3={...obj1,...obj2};
 console.log(obj3);
 
 
-// destructuring
+// // destructuring
 
-const todo = {
-    id:1,
-    title:"something",
-    user:"john",
-};
+// const todo = {
+//     id:1,
+//     title:"something",
+//     user:"john",
+// };
 
 
-// let a=todo.id
-// let b=todo.title
-const {id,title,user}=todo;
-console.log(title);
+// // let a=todo.id
+// // let b=todo.title
+// const {id,title,user}=todo;
+// console.log(title);
 
-// OR
+// // OR
 
-const {id:a,title:b,user:c}=todo;
-console.log(c);
+// const {id:a,title:b,user:c}=todo;
+// console.log(c);
 
 
 const user ={
@@ -89,7 +91,7 @@ const jasonuser = JSON.stringify(user);
 console.log(user);
 console.log(jasonuser);
 
-// convert json to object
+// // convert json to object
 
-const backtoobject = JSON.parse(jasonuser);
-console.log(backtoobject);
+// const backtoobject = JSON.parse(jasonuser);
+// console.log(backtoobject);

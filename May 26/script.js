@@ -8,7 +8,7 @@ arr[2]=100;
 console.log(arr);
 
 
-// Array using feom method
+// Array using from method
 
 const aar1 = Array.from("123456");
 console.log(aar1);
