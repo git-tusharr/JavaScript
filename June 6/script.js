@@ -24,7 +24,6 @@
 
 let hello3=()=>{
 
-   let ptag=document.querySelector("#text");
    let div=document.querySelector("#color");
    div.style.backgroundImage="url(img1.png)";
 
