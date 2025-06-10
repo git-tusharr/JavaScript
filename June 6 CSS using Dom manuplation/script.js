@@ -2,7 +2,7 @@
 //     // alert("Hi i am tushar")
 
 //    let ptag=document.querySelector("#text");
-// //    ptag.innerHTML= "<i> Helloo worldddd </i>";x
+// //    ptag.innerHTML= "<i> Helloo worldddd </i>";
 
 // //    CSS using dom
 // //    ptag.style.color="red";
@@ -22,10 +22,10 @@
 
 // }
 
-let hello3=()=>{
+// let hello3=()=>{
 
-   let div=document.querySelector("#color");
-   div.style.backgroundImage="url(img1.png)";
+//    let div=document.querySelector("#color");
+//    div.style.backgroundImage="url(img1.png)";
 
 
 }
