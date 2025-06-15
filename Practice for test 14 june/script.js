@@ -20,7 +20,7 @@
 
 // let selectedColor="";
 // let Select=()=>{
-//     selesctedColor=prompt("Enter color name")
+//     selectedColor=prompt("Enter color name")
 // }
 
 // let Change=()=>{
@@ -192,14 +192,41 @@
 // Use inline onclick for the buttons. -->
 
 
-let previous=()=>{
-    let image=document.querySelector("#img");
+// let previous=()=>{
+//     let image=document.querySelector("#img");
 
-    image.src="https://media.istockphoto.com/id/814423752/photo/eye-of-model-with-colorful-art-make-up-close-up.jpg?s=612x612&w=0&k=20&c=l15OdMWjgCKycMMShP8UK94ELVlEGvt7GmB_esHWPYE="
-}
+//     image.src="https://media.istockphoto.com/id/814423752/photo/eye-of-model-with-colorful-art-make-up-close-up.jpg?s=612x612&w=0&k=20&c=l15OdMWjgCKycMMShP8UK94ELVlEGvt7GmB_esHWPYE="
+// }
 
-let next=()=>{
-    let image=document.querySelector("#img");
+// let next=()=>{
+//     let image=document.querySelector("#img");
 
-    image.src="https://letsenhance.io/static/73136da51c245e80edc6ccfe44888a99/1015f/MainBefore.jpg"
-}
+//     image.src="https://letsenhance.io/static/73136da51c245e80edc6ccfe44888a99/1015f/MainBefore.jpg"
+// }
+
+
+
+
+
+// question 12
+//  Create an array:
+// ["Apple", "Banana", "Mango", "Orange"]
+// Add a button that removes the last element of the array.
+// Display the updated array in a <p> tag after every button click.
+
+
+
+// let fruits=["Apple", "Banana", "Mango", "Orange"];
+
+// let remove=()=>{
+//     fruits.pop();
+//     let ptag=document.querySelector("#text");
+//     ptag.innerHTML=fruits;
+
+//     if (fruits.length=="") {
+//         ptag.innerHTML="No fruits left"
+//     }
+
+// }
+
+
