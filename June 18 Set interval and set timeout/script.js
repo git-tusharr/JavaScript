@@ -68,22 +68,54 @@
 
 // Print counter in console
 
-let count=0;
-let inter;
+// let count=0;
+// let inter;
 
-let start=()=>{
+// let start=()=>{
 
-    inter=setInterval(() => {
-    console.log(count)
-    count++;
-}, 1000)
-}
+//     inter=setInterval(() => {
+//     console.log(count)
+//     count++;
+// }, 1000)
+// }
 
-let stop=()=>{
+// let stop=()=>{
 
-    let end=clearInterval(inter)
+//     let end=clearInterval(inter)
 
-}
+// }
+
+
+
+
+    // print counter in p tag
+    let inter=null;
+    let count=0;
+    let show=document.querySelector("#display");
+
+    let start=()=>{
+    inter =setInterval(()=>{
+        
+        show.innerHTML=count
+        count++;
+    
+    },1000)
+    }       
+
+    let stop=()=>{
+        let end= clearInterval(inter)
+    }
+
+    let reset=()=>{
+        stop();
+        count=0;
+        show.innerHTML=count;
+        
+    }
+
+
+
+
 
 
 
