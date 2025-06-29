@@ -1,0 +1,31 @@
+{
+    "railway":[
+        {
+            "name":"Vineet",
+            "adhar":"1234567890",
+            "checkIn":"2025-06-23",
+            "checkOut":"2025-06-26",
+            "city":"bhopal",
+            "person":3,
+            "totalPrice":1500
+        },
+        {
+            "name":"tushar",
+            "adhar":"1234567890",
+            "checkIn":"2025-06-24",
+            "checkOut":"2025-06-27",
+            "city":"ujjain",
+            "person":4,
+            "totalPrice":2000
+        },
+        {
+            "name":"prashant",
+            "adhar":"1234567890",
+            "checkIn":"2025-06-21",
+            "checkOut":"2025-06-27",
+            "city":"Lahore",
+            "person":2,
+            "totalPrice":1000
+        }
+    ]
+}
