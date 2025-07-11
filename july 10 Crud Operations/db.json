@@ -1,0 +1,19 @@
+{
+    "data":[
+        {
+            "Name":"Tushar",
+            "Email":"tushar@gmail.com",
+            "City":"Bhopal",
+            "Age":19,
+            "Number":7692870163
+        },
+        {
+            "Name":"Sidd",
+            "Email":"Sidd@gmail.com",
+            "City":"Bhopal",
+            "Age":25,
+            "Number":7645879587
+            
+        }
+    ]
+}
