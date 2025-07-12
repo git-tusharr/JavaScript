@@ -3,12 +3,14 @@ let FetchData=async()=>{
 
     let res=await fetch(url,{method:"GET"})
 
-    let data=a=await( res).json()
+    let data=await( res).json()
 
     console.log(data)
+
+    DataShow(data);
 }
 
-let DataShow=()=>{
+let DataShow=(data)=>{
 
     let Show=document.querySelector("#DataShow")
      Show.innerHTML=""
