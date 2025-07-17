@@ -3,6 +3,11 @@ let seconds = 50;
 let minutes = 0;
 let display=document.querySelector("#display")
 
+
+
+
+
+
 let start=()=>{
      watch = setInterval(() => {
             seconds++;
