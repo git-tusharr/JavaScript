@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f8f8f8;
+}
+.container {
+  width: 90%;
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #ccc;
+  text-align: center;
+}
+input, button {
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px 5px;
+}
+#results {
+  margin-top: 20px;
+  text-align: left;
+}
+.recipe {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+.recipe img {
+  width: 120px;
+  border-radius: 8px;
+}
